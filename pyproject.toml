@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "grpc-basictutorial"
+version = "0.1.0"
+description = ""
+authors = ["cassiobotaro <cassiobotaro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+grpcio = "^1.36.1"
+grpcio-tools = "^1.36.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
